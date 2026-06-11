@@ -8,6 +8,14 @@ package example;
 public class Shouter {
     private String message;
 
+
+    /**
+     * int i;   Shouter shouter = new Shouter("")
+     * i = 5;   shouter.setMessage("5")
+     * 
+     * int i = 5;  Shouter shouter = new Shouter("5")
+     * @param message
+     */
     public Shouter(String message) {
         this.message = message;
     }
